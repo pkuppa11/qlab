@@ -90,7 +90,7 @@ def launch():
     args.epochs = 500
     args.batch_size = 12
     args.image_size = 64
-    args.dataset_path = "/home/2024pkuppa/qlab_project/dataset/"
+    args.dataset_path = "dataset path"
     args.device = "cuda:1"
     args.lr = 3e-4
     train(args)
